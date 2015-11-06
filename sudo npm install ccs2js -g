@@ -1,0 +1,7 @@
+sudo npm install ccs2js -g
+python res.py
+node xls2js.js
+cocos compile -p web -m release
+ccs2js -s res/MainScene.json -d src/auto
+cat ~/.ssh/id_rsa.pub
+python -m SimpleHTTPServer 8099
